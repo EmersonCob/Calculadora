@@ -1,9 +1,23 @@
-// calculadora simples usando o switch com entrada de dados do usuario.
+// calculadora
+
+//let getEntrada = document.querySelector("input#btnInput")
+//let getOperador = document.querySelector("input#operator")
 
 
 
 
-document.getElementById("botao").value
+function getValue(){
+    console.log(getEntrada)
+}
+
+getValue()
+
+/*
+function getOperate(){
+
+}
+
+
 
 function calculate (number1, operate, number2) {
     
@@ -38,4 +52,4 @@ function calculate (number1, operate, number2) {
 
 calculate(numero1, operador, numero2)
 
-
+*/
