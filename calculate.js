@@ -1,23 +1,21 @@
 // calculadora
 
-//let getEntrada = document.querySelector("input#btnInput")
-//let getOperador = document.querySelector("input#operator")
+let getEntrada = document.querySelector("input#btnInput")
+let getOperador = document.querySelector("input#operator")
 
 
 
-
-function getValue(){
+function getValue(getEntrada){
     console.log(getEntrada)
 }
 
-getValue()
-
-/*
-function getOperate(){
-
+function getOperate(getOperate){
+    console.log(getOperate)
 }
 
 
+
+/*
 
 function calculate (number1, operate, number2) {
     
