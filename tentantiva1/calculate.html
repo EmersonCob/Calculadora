@@ -9,8 +9,8 @@
 <body>
     <form>
         <div id="boxCalculate">
-            <h3 id="title">Calculadora - JebCob</h3>
-            <input type="text" name="display" id="display"><br><br>
+            <h3 id="title">Calculadora Simples</h3>
+            <input type="text" name="display" id="display"></input><br><br>
             <div id="boxButton">
                 <input onclick="getValue('7')" type="button" value="7" id="btnInput">
                 <input onclick="getValue('8')" type="button" value="8" id="btnInput">
@@ -29,7 +29,7 @@
             <div id="boxButton">
                 <input onclick="getValue('0')" type="button" value="0" id="btnInput">
                 <input onclick="getValue(',')" type="button" value="," id="btnInput">
-                <input type="button" value="=" id="btnInput"><br>
+                <input type="button" onclick="inputResult('resultado')" value="=" id="btnInputResult"><br>
             </div>
             <div>
                 <input onclick="getOperate('/')" type="button" value="÷" id="operator">
@@ -37,6 +37,7 @@
                 <input onclick="getOperate('-')" type="button" value="-" id="operator">
                 <input onclick="getOperate('+')" type="button" value="+" id="operator">
             </div>
+            <footer>&reg;JebCob</footer>
         </div>
     </form>
     <script src="calculate.js"></script>
